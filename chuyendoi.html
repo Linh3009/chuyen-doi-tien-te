@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyen doi USD sang VND</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th >Amount</th>
+        <th>From Currency</th>
+        <th>To Currency	</th>
+    </tr>
+    <tr>
+        <td> <input type="text" id="Amount"></td>
+        <td>
+            <select id="From">
+                <option value="1">VND </option>
+                <option value="23000">USD</option>
+            </select>
+        </td>
+        <td>
+            <select id="To">
+                <option value="1">VND </option>
+                <option value="23000">USD</option>
+            </select>
+        </td>
+        <td>
+            <button id="Convert" onclick="Convert()">Convert </button>
+        </td>
+    </tr>
+</table>
+<p id="result"></p>
+<script src="chuyendoi.js"></script>
+</body>
+</html>
